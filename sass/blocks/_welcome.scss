@@ -1,0 +1,106 @@
+.welcome {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background: linear-gradient(
+    to right,
+    white 0%,
+
+    white 50%,
+    #20265b 50%,
+    #20265b 100%
+  );
+}
+
+.row-welcome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.welcome__column-1 {
+  background-color: #fff;
+
+  max-width: 525px;
+}
+
+.column-1__subtitle {
+  color: #242424;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+  font-family: "Lora", serif;
+}
+.column-1__text {
+  color: #797979;
+  font-size: 16px;
+  line-height: 1.7em;
+
+  & + .column-1__text {
+    margin-top: 20px;
+  }
+}
+.column-1__call {
+  color: #20265a;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.9em;
+  padding-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-top: 1px solid #ddd;
+}
+.column-1__phono {
+  color: #f64e49;
+  font-size: 36px;
+  font-weight: 300;
+}
+.welcome__column-2 {
+  background-color: #20265b;
+  max-width: 450px;
+}
+.column-2__box {
+  margin-bottom: 45px;
+  position: relative;
+  margin-right: -30px;
+}
+.column-2__title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.4em;
+  margin-bottom: 15px;
+}
+.column-2__text {
+  color: #88a0cb;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7em;
+}
+.column-2__icon-laborers::before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/user.svg);
+  width: 70px;
+  height: 80px;
+  left: -110px;
+  top: 12px;
+}
+
+.column-2__icon-medal::before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/medal-solid.svg);
+  width: 70px;
+  height: 70px;
+  left: -110px;
+  top: 12px;
+}
+.column-2__icon-screwdriver::before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/screwdriver.svg);
+  width: 70px;
+  height: 70px;
+  left: -110px;
+  top: 12px;
+}

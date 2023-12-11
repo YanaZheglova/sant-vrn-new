@@ -1,0 +1,130 @@
+.menu {
+}
+.menu__list {
+  display: flex;
+  column-gap: 30px;
+  justify-content: center;
+}
+.menu__item {
+}
+.menu__link {
+  color: #bec6d9;
+  text-align: center;
+  line-height: 30px;
+  letter-spacing: 0;
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: capitalize;
+  opacity: 1;
+  transition: all 300ms ease;
+  margin-right: 25px;
+  transition: color 0.3s ease;
+  &:hover {
+    color: #f64e49;
+  }
+}
+.nav-button {
+  display: none;
+}
+.row {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+.input__model {
+  max-width: 20%;
+}
+
+.input__model::placeholder {
+  color: #fff;
+  font-size: 14px;
+}
+.input__sumbut {
+  max-width: 20%;
+  color: #fff;
+  background-color: #393939;
+}
+@media (max-width: 1100px) {
+  .row {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 950px) {
+  .nav-button {
+    display: block;
+    top: 3px;
+    right: 30px;
+    position: fixed;
+    width: 54px;
+    height: 50px;
+    z-index: 9;
+  }
+  .menu__list {
+    display: none;
+  }
+  .header__row {
+    justify-content: center;
+    column-gap: 30px;
+  }
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .nav-button {
+    display: block;
+    top: 78px;
+    right: 30px;
+    position: fixed;
+    width: 54px;
+    height: 50px;
+    z-index: 9;
+    background-color: #283a84;
+  }
+  .menu.open .menu__list {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #283a84;
+    z-index: 1;
+    padding: 46px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 35px;
+    font-size: 34px;
+    font-weight: 600;
+  }
+  .menu__link {
+    transition: color 0.3s ease;
+  }
+  .menu__link:hover {
+    color: #f64e49;
+  }
+}
+/* mobile menu */
+
+@media (max-width: 680px) {
+  .logo__img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 625px) {
+  .header__row {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+}
+@media (max-width: 400px) {
+  .header__row {
+    row-gap: 10px;
+  }
+  .logo__img {
+    width: 160px;
+  }
+  .nav-button {
+    right: 10px;
+  }
+}

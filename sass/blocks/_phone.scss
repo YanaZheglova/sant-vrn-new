@@ -1,0 +1,41 @@
+.phone {
+  background-image: url(../img/bg-footer.png);
+  background-color: #2760ca;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row-phone {
+  display: flex;
+  justify-content: space-between;
+}
+.phone__imgs {
+  margin-top: -85px;
+}
+
+.phone__content {
+  color: #fff;
+}
+.phone__title {
+  padding-top: 45px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2em;
+  margin-bottom: 28px;
+}
+.phone__subtitle {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 15px;
+  font-family: "Lora", serif;
+}
+.phone__number {
+  font-size: 35px;
+  font-weight: 300;
+
+  color: #fff;
+  & span {
+    font-weight: 600;
+  }
+}

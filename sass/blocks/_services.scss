@@ -1,0 +1,35 @@
+.services {
+  padding: 90px 0 150px;
+  background-color: #efefef;
+  background-image: url(./img/bg-services.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+
+.services__text {
+  position: relative;
+  color: #7d7d7d;
+  font-size: 17px;
+  line-height: 1.8em;
+  max-width: 900px;
+  margin-top: 20px;
+  margin-bottom: 45px;
+  font-family: "Lato", sans-serif;
+}
+.row-services {
+  display: grid;
+  column-gap: 20px;
+  row-gap: 35px;
+  grid-template-columns: repeat(3, minmax(180px, 1fr));
+}
+.services__box {
+}
+.services__box-img {
+}
+.services__box-name {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px 0;
+  color: #242424;
+}

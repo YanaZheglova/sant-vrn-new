@@ -1,0 +1,148 @@
+.footer {
+  padding-top: 50px;
+  background-image: url(../img/bg-footer-top.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #111930;
+}
+
+.footer-top {
+}
+.row-footer-top {
+}
+.footer-top__boxs {
+  margin-bottom: 30px;
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-top__box {
+  padding: 22px 25px;
+  background-color: #0f1527;
+  border: 1px dashed #027ae6;
+}
+.footer-top__text {
+  position: relative;
+  color: #98a0b1;
+  padding-left: 22px;
+  line-height: 1.4;
+
+  & ::before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/location-dot-solid.svg);
+    background-repeat: no-repeat;
+
+    width: 32px;
+    height: 32px;
+    left: -20px;
+    bottom: 6px;
+    margin-left: 5px;
+  }
+}
+
+.footer-top__clock {
+  color: #98a0b1;
+
+  position: relative;
+  padding-left: 30px;
+  line-height: 1.4;
+  & span {
+    color: #cdcfd4;
+  }
+  & ::before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/clock-regular.svg);
+    background-repeat: no-repeat;
+
+    width: 32px;
+    height: 32px;
+    left: -20px;
+    bottom: 5px;
+    margin-left: 5px;
+  }
+}
+.footer-top__number {
+  color: #98a0b1;
+  position: relative;
+  padding-left: 40px;
+  line-height: 1.4;
+  & span {
+    color: #cdcfd4;
+    padding-left: 41px;
+  }
+  & ::before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/Email.svg);
+    background-repeat: no-repeat;
+
+    width: 32px;
+    height: 32px;
+    left: -20px;
+    bottom: 6px;
+    margin-left: 5px;
+  }
+}
+.footer-bottom {
+}
+.row-footer-bottom {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+.footer-bottom__img {
+  height: 300px;
+}
+.footer-bottom__content {
+}
+.footer-bottom__logo {
+}
+.footer-bottom__text {
+  color: #c3c6cd;
+  font-size: 15px;
+  margin-bottom: 25px;
+  line-height: 1.4;
+}
+.footer-bottom__social {
+}
+.social__list {
+}
+.social__youtub {
+}
+.social__link {
+}
+.social__vk {
+}
+.social__pinterest {
+}
+.footer-bottom__menu {
+}
+.footer-bottom__list {
+}
+.footer-bottom__item {
+  margin-bottom: 10px;
+}
+.footer-bottom__link {
+  font-size: 15px;
+  color: rgba(195, 195, 205, 0.6);
+}
+.footer-bottom__services {
+}
+.footer-bottom__services-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.2em;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.copyright {
+  padding: 20px 40px;
+  background-color: #0d121f;
+  color: rgba(255, 255, 255, 0.7);
+}
